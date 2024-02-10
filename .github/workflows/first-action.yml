@@ -7,5 +7,10 @@ jobs:
     steps:
       - name: Print greeting
         run: echo "Hello Alex"
-      - name: Pring goodbye
+      - name: Printing goodbye
         run: echo "Done - bye"
+      - name: Shell commands
+        run: |
+          echo "First output"
+          echo "Second output"
+      
